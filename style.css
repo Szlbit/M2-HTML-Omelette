@@ -1,0 +1,137 @@
+@font-face {
+    font-family: YoungSerif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf)
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf)
+}
+
+#pagina {
+
+    background-color: rgb(243, 229, 216);
+    padding-top: 60px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 60px;
+    
+}
+
+.blanco{
+
+    
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+
+
+}
+
+#omelette{
+
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+
+#simple{
+
+    font-family: YoungSerif;
+    font-size: 35px;
+    padding-bottom: 20px;
+
+}
+
+#des{
+    font-family: Outfit;
+    padding-bottom: 20px;
+    
+}
+
+.morado{
+
+    font-family: Outfit;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 247, 252);
+    height: auto;
+    width: 88%;
+    line-height: 30px;
+
+}
+
+.morado li::marker{
+    color: rgb(131, 74, 98);
+}
+
+#time{
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(131, 74, 98);
+}
+
+#Negrilla{
+    font-weight: bold;
+}
+
+#Subtitulo{
+
+    color:rgb(127, 73, 53);
+    font-size: 24px;
+    font-family: YoungSerif;
+    padding-top: 15px;
+    padding-bottom:15px;
+
+}
+
+#ingredientes{
+
+    font-family: Outfit;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+
+#Instrucciones{
+
+    font-family: Outfit;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-top: 0px;
+
+}
+
+#ingredientes li::marker, #Instrucciones li::marker{
+    color: rgb(127, 73, 53);
+    font-family: Outfit;
+}
+
+.infoNutricional, .infoNutricional tr{
+    
+    font-family: Outfit;
+    padding: 8px;
+    line-height: 40px;
+    border-spacing: 8px;
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+#kalGr{
+    font-weight: bold;
+    color: rgb(127, 73, 53);
+    font-family: Outfit;
+
+}
